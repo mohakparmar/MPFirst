@@ -8,18 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MPFirst'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of MPFirst.'
+  s.version          = '0.2.0'
+  s.summary          = 'This is my first pods'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
 
   s.homepage         = 'https://github.com/mohakparmar/MPFirst'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,11 +21,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MPFirst/Classes/**/*'
+  s.source_files = 'MPFirst/Classes/*.{h,m}'
   
-  # s.resource_bundles = {
-  #   'MPFirst' => ['MPFirst/Assets/*.png']
-  # }
+  #s.resource_bundles = {
+  #    'MPFirst' => ['MPFirst/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

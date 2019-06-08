@@ -7,6 +7,7 @@
 //
 
 #import "MPFirstViewController.h"
+#import <MPFirst/MPLocationManager.h>
 
 @interface MPFirstViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [[MPLocationManager sharedInstance] StartUpdatingLocation];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		39CC4AA0D555F2F46ECB69C6 /* MPFirst.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MPFirst.podspec; path = ../MPFirst.podspec; sourceTree = "<group>"; };
-		5C2A2D7CD19EF35A120A058E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39CC4AA0D555F2F46ECB69C6 /* MPFirst.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MPFirst.podspec; path = ../MPFirst.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C2A2D7CD19EF35A120A058E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MPFirst_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPFirst_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		889423BC6490067EDC6EF24D /* Pods_MPFirst_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPFirst_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1978ADE2BABCDD09E44900 /* Pods-MPFirst_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPFirst_Tests.release.xcconfig"; path = "Target Support Files/Pods-MPFirst_Tests/Pods-MPFirst_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A73DBD32F8169F7BA732ECE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A73DBD32F8169F7BA732ECE5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AB3E975DD5D332696E3A2C6E /* Pods_MPFirst_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MPFirst_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE228595B56FF8068673C7C /* Pods-MPFirst_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPFirst_Example.release.xcconfig"; path = "Target Support Files/Pods-MPFirst_Example/Pods-MPFirst_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F87DAEBDAA586C77E128B792 /* Pods-MPFirst_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MPFirst_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MPFirst_Tests/Pods-MPFirst_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				F87DAEBDAA586C77E128B792 /* Pods-MPFirst_Tests.debug.xcconfig */,
 				9E1978ADE2BABCDD09E44900 /* Pods-MPFirst_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5D574EC50911393ABC863110 /* [CP] Embed Pods Frameworks */,
+				89A550C61447C3B95ACB14A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,7 +294,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5D574EC50911393ABC863110 /* [CP] Embed Pods Frameworks */ = {
+		89A550C61447C3B95ACB14A0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
